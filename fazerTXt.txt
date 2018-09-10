@@ -1,0 +1,19 @@
+Criar TExtVIew dinamica
+
+criar um layout e dar um id pra ele
+deixar vazio
+
+Declarar ele no java
+fazer findViewById
+
+usar um for(tamanho da palavra){
+	criar uma textView
+	TextView t = new TextView(this);
+	setarUmavalor na caixa
+//enviar para o linearLayout
+linear.addView(t);
+}
+
+Outra forma criar um layout para os textView
+
+puxar o arquivo criado na pasta RES

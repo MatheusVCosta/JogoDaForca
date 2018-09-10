@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="234dp"
+                android:layout_height="231dp"
+                android:layout_gravity="center"
+                android:src="@drawable/img6" />
+
+            <TextView
+                android:id="@+id/txtTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:text="GAME OVER"
+                android:textColor="@color/branco"
+                android:textSize="30dp"
+
+                />
+
+            <Button
+                android:layout_width="650px"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="80px"
+                android:background="@drawable/btn_iniciar"
+                android:onClick="inicio"
+                android:text="Voltar ao inicio"
+                android:textColor="@color/branco"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ou"
+                android:layout_gravity="center"
+                android:textColor="@color/branco"
+                android:textSize="25sp"
+                />
+            <Button
+                android:layout_width="650px"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10px"
+                android:background="@drawable/btn_iniciar"
+                android:onClick="sair"
+                android:text="Sair do jogo"
+                android:textColor="@color/branco"
+
+                />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
